@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Spyro 2 100% Walkthrough"
