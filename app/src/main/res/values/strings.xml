@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Spyro 2 100% Walkthrough</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_gameinfo">GameInfo</string>
+    <string name="title_walkthrough">100% Walkthrough</string>
+    <string name="title_secrets">Secrets</string>
 </resources>
