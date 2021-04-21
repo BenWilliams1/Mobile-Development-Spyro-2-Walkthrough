@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModel
 class SecretsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is Secrets Fragment"
+        value = "Secrets"
     }
     val text: LiveData<String> = _text
 }

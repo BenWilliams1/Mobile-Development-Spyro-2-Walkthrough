@@ -1,10 +1,29 @@
 <resources>
+    <!--Titles-->
     <string name="app_name">Spyro 2 100% Walkthrough</string>
-    <string name="title_home">Home</string>
+    <string name="title_home">Home Page</string>
     <string name="title_gameinfo">Game Info</string>
     <string name="title_walkthrough">100% Walkthrough</string>
     <string name="title_secrets">Secrets</string>
     <string name="spyro_2_reignited_trilogy">Spyro 2 Reignited Trilogy</string>
-    <string name="button1">Glimmer</string>
-    <string name="button2">Game Info</string>
+
+    <!--HomePage Text-->
+    <string name="intro_home">This App is a walkthrough/100% guide to fully complete Spyro 2 with all gems, orbs and secrets. This app also has information on the game as well as some hidden secrets and glitches.</string>
+
+    <!--GameInfo Text-->
+
+    <!--Character Descriptions-->
+
+    <!--Walkthrough Text-->
+
+    <!--Secrets Text-->
+
+    <!--Content Descriptions-->
+    <string name ="home_title_description">Home Page Title</string>
+    <string name ="home_spyro_image_description">Image of Spyro</string>
+    <string name ="home_orb_image_description">Image of the collectable orbs in the game</string>
+    <string name ="home_gem_image_description">Image of the collectable gems in the game</string>
+    <string name ="home_talisman_image_description">Image of the collectable talismans in the game</string>
+
+
 </resources>
