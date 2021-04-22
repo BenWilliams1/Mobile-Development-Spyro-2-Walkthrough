@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class WalkthroughViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is Walkthrough Fragment"
+        value = "100% Walkthrough"
     }
     val text: LiveData<String> = _text
 }

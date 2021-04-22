@@ -1,33 +1,300 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+
+
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/purple"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/purple"
     tools:context=".ui.gameinfo.GameInfoFragment">
 
-    <TextView
-        android:id="@+id/text_gameinfo"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:fontFamily="@font/lithospro_black"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.031"
-        android:gravity="center_horizontal" />
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_gameinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/game_title_description"
+            android:fontFamily="@font/lithospro_black"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/game_info_intro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
+        <TextView
+            android:id="@+id/game_info_intro"
+            android:layout_width="318dp"
+            android:layout_height="149dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/game_info_intro_description"
+            android:fontFamily="@font/lithospro_regular"
+            android:gravity="center"
+            android:text="@string/game_info_intro"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/characters"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_gameinfo" />
+
+        <TextView
+            android:id="@+id/characters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lithospro_black"
+            android:text="@string/game_info_characters"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/game_info_intro" />
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="399dp"
+            android:layout_height="773dp"
+            android:layout_marginTop="41dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/characters">
+
+            <ImageView
+                android:id="@+id/spyro_info"
+                android:layout_width="91dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/game_info_spyro_description"
+                android:src="@drawable/spyro"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
+            <ImageView
+                android:id="@+id/sparks_info"
+                android:layout_width="135dp"
+                android:layout_height="106dp"
+                android:contentDescription="@string/game_info_sparks_description"
+                android:src="@drawable/sparx"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
+            <ImageView
+                android:id="@+id/hunter_info"
+                android:layout_width="104dp"
+                android:layout_height="107dp"
+                android:contentDescription="@string/game_info_hunter_description"
+                android:src="@drawable/hunter_reignited"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
+            <Button
+                android:id="@+id/spyro_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/spyro_info"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/orange"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="1" />
+
+            <Button
+                android:id="@+id/professor_button"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/Professor_info"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/orange"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="3" />
+
+            <Button
+                android:id="@+id/moneybags_button"
+                android:layout_width="127dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/moneybags_info"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/orange"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="5" />
+
+            <Button
+                android:id="@+id/ripto_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/ripto_info"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+
+            <Button
+                android:id="@+id/crush_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/crush_info"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="5" />
+
+            <Button
+                android:id="@+id/gulp_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/gulp_info"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/orange"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="5" />
+
+            <Button
+                android:id="@+id/elora_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/elora_info"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="3" />
+
+            <Button
+                android:id="@+id/zoe_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/zoe_info"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/orange"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="3" />
+
+            <Button
+                android:id="@+id/spark_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/sparks_info"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="1" />
+
+            <Button
+                android:id="@+id/hunter_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/hunter_info"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/orange"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="1" />
+
+            <ImageView
+                android:id="@+id/professor_info"
+                android:layout_width="116dp"
+                android:layout_height="114dp"
+                android:contentDescription="@string/game_info_professor_description"
+                android:src="@drawable/professor_reignited"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="2" />
+
+            <ImageView
+                android:id="@+id/elora_info"
+                android:layout_width="68dp"
+                android:layout_height="134dp"
+                android:contentDescription="@string/game_info_elora_description"
+                android:scaleType="centerInside"
+                android:src="@drawable/reignited_elora"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="2" />
+
+            <ImageView
+                android:id="@+id/zoe_info"
+                android:layout_width="80dp"
+                android:layout_height="91dp"
+                android:contentDescription="@string/game_info_zoe_description"
+                android:src="@drawable/zoe_reignited"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="2" />
+
+            <ImageView
+                android:id="@+id/moneybags_info"
+                android:layout_width="98dp"
+                android:layout_height="121dp"
+                android:contentDescription="@string/game_info_moneybags_description"
+                android:src="@drawable/moneybags"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="4" />
+
+            <ImageView
+                android:id="@+id/crush_info"
+                android:layout_width="134dp"
+                android:layout_height="102dp"
+                android:contentDescription="@string/game_info_crush_description"
+                android:src="@drawable/crush"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="4" />
+
+            <ImageView
+                android:id="@+id/gulp_info"
+                android:layout_width="119dp"
+                android:layout_height="106dp"
+                android:contentDescription="@string/game_info_gulp_description"
+                android:src="@drawable/gulp"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="4" />
+
+            <ImageView
+                android:id="@+id/ripto_info"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:contentDescription="@string/game_info_ripto_description"
+                android:src="@drawable/ripto"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="6" />
+
+        </androidx.gridlayout.widget.GridLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -11,19 +11,133 @@
     <string name="intro_home">This App is a walkthrough/100% guide to fully complete Spyro 2 with all gems, orbs and secrets. This app also has information on the game as well as some hidden secrets and glitches.</string>
 
     <!--GameInfo Text-->
-
+    <string name="game_info_intro">Spyro is a platforming game about a small purple dragon called spyro and his companion sparks on their many adventures in avalar on their quest to defeat Ripto, a Riptoc set on conquering avalars worlds.</string>
+    <string name="game_info_characters">Characters</string>
+    <string name="spyro_info">Spyro</string>
+    <string name="sparks_info">Sparks</string>
+    <string name="hunter_info">Hunter</string>
+    <string name="Professor_info">The Professor</string>
+    <string name="elora_info">Elora</string>
+    <string name="zoe_info">Zoe</string>
+    <string name="moneybags_info">Money Bags</string>
+    <string name="crush_info">Crush</string>
+    <string name="gulp_info">Gulp</string>
+    <string name="ripto_info">Ripto</string>
     <!--Character Descriptions-->
 
     <!--Walkthrough Text-->
+    <string name="summer_forest_title">Summer Forest</string>
+    <string name="autumn_plains_title">Autumn Plains</string>
+    <string name="winter_tundra_title">Winter Tundra</string>
+    <string name="level_glimmer">Glimmer</string>
+    <string name="level_idol_springs">Idol Springs</string>
+    <string name="level_colossus">Colossus</string>
+    <string name="level_sunny_beach">Sunny Beach</string>
+    <string name="level_hurricos">Hurricos</string>
+    <string name="level_aquaria_towers">Aquaria Towers</string>
+    <string name="level_ocean_speedway">Ocean Speedway</string>
+    <string name="level_crushs_dungeon">Crushs Dungeon</string>
+    <string name="level_skelos_badlands">Skelos Badlands</string>
+    <string name="level_crystal_glacier">Crystal Glacier</string>
+    <string name="level_breeze_harbor">Breeze Harbor</string>
+    <string name="level_zephyr">Zephyr</string>
+    <string name="level_scorch">Scorch</string>
+    <string name="level_fracture_hills">Fracture Hills</string>
+    <string name="level_magma_cone">Magma Cone</string>
+    <string name="level_shady_oasis">Shady Oasis</string>
+    <string name="level_metro_speedway">Metro Speedway</string>
+    <string name="level_icy_speedway">Icy Speedway</string>
+    <string name="level_gulps_overlook">Gulps Overlook</string>
+    <string name="level_mystic_marsh">Mystic Marsh</string>
+    <string name="level_cloud_temples">Cloud Temples</string>
+    <string name="level_robotica_farms">Robotica Farms</string>
+    <string name="level_metropolis">Metropolis</string>
+    <string name="level_canyon_speedway">Canyon Speedway</string>
+    <string name="level_riptos_arena">Riptos Arena</string>
+
 
     <!--Secrets Text-->
 
-    <!--Content Descriptions-->
+    <!--Content Descriptions Home-->
     <string name ="home_title_description">Home Page Title</string>
     <string name ="home_spyro_image_description">Image of Spyro</string>
     <string name ="home_orb_image_description">Image of the collectable orbs in the game</string>
     <string name ="home_gem_image_description">Image of the collectable gems in the game</string>
     <string name ="home_talisman_image_description">Image of the collectable talismans in the game</string>
+    <!--Content Descriptions Game Info-->
+    <string name="game_title_description">Game Info Title</string>
+    <string name="game_info_intro_description">Game Info Intro Paragraph</string>
+    <string name="game_info_spyro_description">Game Info Spyro Image</string>
+    <string name="game_info_sparks_description">Game Info Sparks Image</string>
+    <string name="game_info_hunter_description">Game Info Hunter Image</string>
+    <string name="game_info_professor_description">Game Info Professor Image</string>
+    <string name="game_info_elora_description">Game Info Elora Image</string>
+    <string name="game_info_zoe_description">Game Info Zoe Image</string>
+    <string name="game_info_moneybags_description">Game Info Money Bags Image</string>
+    <string name="game_info_crush_description">Game Info Crush Image</string>
+    <string name="game_info_gulp_description">Game Info Gulp Image</string>
+    <string name="game_info_ripto_description">Game Info Ripto Image</string>
+    <string name="game_info_spyro_button_description">Game Info Spyro Button</string>
+    <string name="game_info_sparks_button_description">Game Info Sparks Button</string>
+    <string name="game_info_hunter_button_description">Game Info Hunter Button</string>
+    <string name="game_info_professor_button_description">Game Info Professor Button</string>
+    <string name="game_info_elora_button_description">Game Info Elora Button</string>
+    <string name="game_info_zoe_button_description">Game Info Zoe Button</string>
+    <string name="game_info_moneybags_button_description">Game Info Money Bags Button</string>
+    <string name="game_info_crush_button_description">Game Info Crush Button</string>
+    <string name="game_info_gulp_button_description">Game Info Gulp Button</string>
+    <string name="game_info_ripto_button_description">Game Info Ripto Button</string>
+    <!--Content Descriptions 100% Walkthrough-->
+    <string name="level_glimmer_image_description">Glimmer Level Image</string>
+    <string name="level_idol_springs_image_description">Idol Springs Level Image</string>
+    <string name="level_colossus_image_description">Colossus Level Image</string>
+    <string name="level_sunny_beach_image_description">Sunny Beach Level Image</string>
+    <string name="level_hurricos_image_description">Hurricos Level Image</string>
+    <string name="level_aquaria_towers_image_description">Aquaria Towers Level Image</string>
+    <string name="level_ocean_speedway_image_description">Ocean Speedway Level Image</string>
+    <string name="level_crushs_dungeon_image_description">Crushs Dungeon Level Image</string>
+    <string name="level_skelos_badlands_image_description">Skelos Badlands Level Image</string>
+    <string name="level_crystal_glacier_image_description">Crystal Glacier Level Image</string>
+    <string name="level_breeze_harbor_image_description">Breeze Harbor Level Image</string>
+    <string name="level_zephyr_image_description">Zephyr Level Image</string>
+    <string name="level_scorch_image_description">Scorch Level Image</string>
+    <string name="level_fracture_hills_image_description">Fracture Hills Level Image</string>
+    <string name="level_magma_cone_image_description">Magma Cone Level Image</string>
+    <string name="level_shady_oasis_image_description">Shady Oasis Level Image</string>
+    <string name="level_metro_speedway_image_description">Metro Speedway Level Image</string>
+    <string name="level_icy_speedway_image_description">Icy Speedway Level Image</string>
+    <string name="level_gulps_overlook_image_description">Gulps Overlook Level Image</string>
+    <string name="level_mystic_marsh_image_description">Mystic Marsh Level Image</string>
+    <string name="level_cloud_temples_image_description">Cloud Temples Level Image</string>
+    <string name="level_robotica_farms_image_description">Robotica Farms Level Image</string>
+    <string name="level_metropolis_image_description">Metropolis Level Image</string>
+    <string name="level_canyon_speedway_image_description">Canyon Speedway Level Image</string>
+    <string name="level_riptos_arena_image_description">Riptos Arena Level Image</string>
 
+    <string name="level_glimmer_button_description">Glimmer Button</string>
+    <string name="level_idol_springs_button_description">Idol Springs Button</string>
+    <string name="level_colossus_button_description">Colossus Button</string>
+    <string name="level_sunny_beach_button_description">Sunny Beach Button</string>
+    <string name="level_hurricos_button_description">Hurricos Button</string>
+    <string name="level_aquaria_towers_button_description">Aquaria Towers Button</string>
+    <string name="level_ocean_speedway_button_description">Ocean Speedway Button</string>
+    <string name="level_crushs_dungeon_button_description">Crushs Dungeon Button</string>
+    <string name="level_skelos_badlands_button_description">Skelos Badlands Button</string>
+    <string name="level_crystal_glacier_button_description">Crystal Glacier Button</string>
+    <string name="level_breeze_harbor_button_description">Breeze Harbor Button</string>
+    <string name="level_zephyr_button_description">Zephyr Button</string>
+    <string name="level_scorch_button_description">Scorch Button</string>
+    <string name="level_fracture_hills_button_description">Fracture Hills Button</string>
+    <string name="level_magma_cone_button_description">Magma Cone Button</string>
+    <string name="level_shady_oasis_button_description">Shady Oasis Button</string>
+    <string name="level_metro_speedway_button_description">Metro Speedway Button</string>
+    <string name="level_icy_speedway_button_description">Icy Speedway Button</string>
+    <string name="level_gulps_overlook_button_description">Gulps Overlook Button</string>
+    <string name="level_mystic_marsh_button_description">Mystic Marsh Button</string>
+    <string name="level_cloud_temples_button_description">Cloud Temples Button</string>
+    <string name="level_robotica_farms_button_description">Robotica Farms Button</string>
+    <string name="level_metropolis_button_description">Metropolis Button</string>
+    <string name="level_canyon_speedway_button_description">Canyon Speedway Button</string>
+    <string name="level_riptos_arena_button_description">Riptos Arena Button</string>
 
 </resources>
