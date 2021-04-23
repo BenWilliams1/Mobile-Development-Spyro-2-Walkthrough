@@ -54,9 +54,73 @@
     <string name="level_metropolis">Metropolis</string>
     <string name="level_canyon_speedway">Canyon Speedway</string>
     <string name="level_riptos_arena">Riptos Arena</string>
-
+    <string name="level_dragon_shores">Dragon Shores</string>
 
     <!--Secrets Text-->
+    <string name = "skill_points_title">Skill Points</string>
+
+    <!--SKill Points Titles-->
+    <string name="sp_title_idol_springs">Idol Springs: Land on Idol</string>
+    <string name="sp_title_colossus">Colossus: Perfect in Hockey</string>
+    <string name="sp_title_hurricos">Hurricos: All Windmills</string>
+    <string name="sp_title_aquaria_towers">Aquaria Towers: All Seaweed</string>
+    <string name="sp_title_ocean_speedway">Ocean Speedway: Under 1:10</string>
+    <string name="sp_title_crushs_dungeon">Crushs Dungeon: Perfect</string>
+    <string name="sp_title_skelos1">Skelos Badlands: Catbat Quartet</string>
+    <string name="sp_title_skelos2">Skelos Badlands: All Cacti</string>
+    <string name="sp_title_scorch">Scorch: All Trees</string>
+    <string name="sp_title_fracture_hills">Fracture Hills: 3 Laps of Supercharge</string>
+    <string name="sp_title_icy_speedway">Icy Speedway: Under 1:15</string>
+    <string name="sp_title_metro_speedway">Metro Speedway: Under 1:15</string>
+    <string name="sp_title_gulp1">Gulps Overlook: Perfect</string>
+    <string name="sp_title_gulp2">Gulps Overlook Hit Ripto</string>
+    <string name="sp_title_canyon_speedway">Canyon Speedway: Under 1:10</string>
+    <string name="sp_title_ripto">Riptos Arena: Perfect</string>
+
+    <!--SKill Points Description-->
+    <string name="sp_desc_idol_springs">In the area with the supercharge there is an idol in the middle. Go to the roofs and glide to it and land on it.</string>
+    <string name="sp_desc_colossus">Beat the hockey challenge with the opponent without them scoring a goal. Make sure to flame the opponent to keep them from scoring</string>
+    <string name="sp_desc_hurricos">In the Hurricos level there are 8 windmills that you can destroy. Destroy all of them, make sure to check every corner</string>
+    <string name="sp_desc_aquaria_towers">Destroy the 11 strands of seaweed with the superflame that you get at the end of the level.</string>
+    <string name="sp_desc_ocean_speedway">Complete the main course of Ocean Speedway in under 1:10, you can try as many times as you want. This one may take some practice</string>
+    <string name="sp_desc_crushs_dungeon">You need to defeat Crush without taking any damage during the fight, make sure to jump the blue electricity and run to the side of the fireballs.</string>
+    <string name="sp_desc_skelos1">Near the end of the level there is a section with 4 catbat enemies. Use the lava rocks to take them out, kill all 4 to get the skill point.</string>
+    <string name="sp_desc_skelos2">Flame all 7 cacti that are on the main path of the level.</string>
+    <string name="sp_desc_scorch">Charge all 7 palm trees scattered throughout the level.</string>
+    <string name="sp_desc_fracture_hills">In this level there is a supercharge course, go around it three times without losing the supercharge. Make sure to practice and remember the layout.</string>
+    <string name="sp_desc_icy_speedway">Complete the Icy Speedway course in under 1:15. Keep trying and you will get it.</string>
+    <string name="sp_desc_metro_speedway">Complete the Metro Speedway course in under 1:15. Keep trying and you will get it.</string>
+    <string name="sp_desc_gulp1">Defeat Gulp without taking any damage, make sure to not damage yourself on any of the items.</string>
+    <string name="sp_desc_gulp2">In Gulps Overlook you will need to hit Ripto while he is on his throne. Use one of the mini rockets or the permanent superflame that you get for 100% completing the game.</string>
+    <string name="sp_desc_canyon_speedway">Complete the Canyon Speedway course in under 1:10. Keep trying and you will get it.</string>
+    <string name="sp_desc_ripto">The final skill point is to defeat Ripto without taking a single hit of damage. Practice to understand his attacks and when to attack.</string>
+
+    <!--Cheat Code Titles-->
+    <string name="secrets_cheat_code_title">Cheat Codes</string>
+    <string name="secrets_cheat_code_99lives">99 Lives</string>
+    <string name="secrets_cheat_code_superflame">Permenant Superflame</string>
+    <string name="secrets_cheat_code_big_head">Big Head Mode</string>
+    <string name="secrets_cheat_code_small_head">Small Head Mode</string>
+    <string name="secrets_cheat_code_tiny_wings">Tiny Wings</string>
+    <string name="secrets_cheat_code_sunglasses">Black Sunglasses Spyro</string>
+    <string name="secrets_cheat_code_pride_sunglasses">Pride Sunglasses Spyro</string>
+    <string name="secrets_cheat_code_flat">Flat Spyro</string>
+    <string name="secrets_cheat_code_retro">Retro Spyro</string>
+    <string name="secrets_cheat_code_colour">Colour Change</string>
+
+    <!--Cheat Code Decriptions-->
+    <string name="secrets_cheat_code_intro">To enter a code, pause the game first. To remove a cosmetic code, simply input the code again.</string>
+    <string name="secrets_cheat_code_99lives_desc">This code will increase your lives to 99.</string>
+    <string name="secrets_cheat_code_superflame_desc">Unlocks permenant superflame, if inputed when you have the superflame activated it turns it off.</string>
+    <string name="secrets_cheat_code_big_head_desc">This code makes Spyros head bigger.</string>
+    <string name="secrets_cheat_code_small_head_desc">This code makes Spyros head smaller.</string>
+    <string name="secrets_cheat_code_tiny_wings_desc">This code makes Spyros wings smaller.</string>
+    <string name="secrets_cheat_code_sunglasses_desc">This code gives Spyro black sunglasses. </string>
+    <string name="secrets_cheat_code_pride_sunglasses_desc">This code gives Spyro pride sunglasses. This code is only useable on the Switch version of the game.</string>
+    <string name="secrets_cheat_code_flat_desc">This code makes Spyro flat, this code turns off any sunglasses code you have activated.</string>
+    <string name="secrets_cheat_code_retro_desc">This code gives Spyro a retro look, this is not the original model but a model made to look similar.</string>
+    <string name="secrets_cheat_code_colour_desc">This changes Spyros colour to one of 7 colours. Blue, Green, Yellow, Red, Pink, Purple or Black.</string>
+
 
     <!--Content Descriptions Home-->
     <string name ="home_title_description">Home Page Title</string>
@@ -64,6 +128,7 @@
     <string name ="home_orb_image_description">Image of the collectable orbs in the game</string>
     <string name ="home_gem_image_description">Image of the collectable gems in the game</string>
     <string name ="home_talisman_image_description">Image of the collectable talismans in the game</string>
+
     <!--Content Descriptions Game Info-->
     <string name="game_title_description">Game Info Title</string>
     <string name="game_info_intro_description">Game Info Intro Paragraph</string>
@@ -87,7 +152,11 @@
     <string name="game_info_crush_button_description">Game Info Crush Button</string>
     <string name="game_info_gulp_button_description">Game Info Gulp Button</string>
     <string name="game_info_ripto_button_description">Game Info Ripto Button</string>
+
     <!--Content Descriptions 100% Walkthrough-->
+    <string name="summer_forest_title_description">Summer Forest Title</string>
+    <string name="autumn_plains_title_description">Autumn Plains Title</string>
+    <string name="winter_tundra_title_description">Winter Tundra Title</string>
     <string name="level_glimmer_image_description">Glimmer Level Image</string>
     <string name="level_idol_springs_image_description">Idol Springs Level Image</string>
     <string name="level_colossus_image_description">Colossus Level Image</string>
@@ -113,6 +182,10 @@
     <string name="level_metropolis_image_description">Metropolis Level Image</string>
     <string name="level_canyon_speedway_image_description">Canyon Speedway Level Image</string>
     <string name="level_riptos_arena_image_description">Riptos Arena Level Image</string>
+    <string name="summer_forest_image_description">Summer Forest Level Image</string>
+    <string name="autumn_plains_image_description">Autumn Plains Level Image</string>
+    <string name="winter_tundra_image_description">Winter Tundra Level Image</string>
+    <string name="dragon_shores_image_description">Dragon Shores Level Image</string>
 
     <string name="level_glimmer_button_description">Glimmer Button</string>
     <string name="level_idol_springs_button_description">Idol Springs Button</string>
@@ -139,5 +212,84 @@
     <string name="level_metropolis_button_description">Metropolis Button</string>
     <string name="level_canyon_speedway_button_description">Canyon Speedway Button</string>
     <string name="level_riptos_arena_button_description">Riptos Arena Button</string>
+    <string name="summer_forest_button_description">Summer Forest Button</string>
+    <string name="autumn_plains_button_description">Autumn Plains Button</string>
+    <string name="winter_tundra_button_description">Winter Tundra Button</string>
+    <string name="dragon_shores_button_description">Dragon Shores Button</string>
+
+    <!--SKill Points Descriptions-->
+    <string name="sp_title_idol_springs_desc">Idol Springs Skill Points Title</string>
+    <string name="sp_title_colossus_desc">Colossus Skill Points Title</string>
+    <string name="sp_title_hurricos_desc">Hurricos Skill Points Title</string>
+    <string name="sp_title_aquaria_towers_desc">Aquaria Towers Skill Points Title</string>
+    <string name="sp_title_ocean_speedway_desc">Ocean Speedway Skill Points Title</string>
+    <string name="sp_title_crushs_dungeon_desc">Crushs Dungeon Skill Points Title</string>
+    <string name="sp_title_skelos1_desc">Skelos Badlands1 Skill Points Title</string>
+    <string name="sp_title_skelos2_desc">Skelos Badlands2 Skill Points Title</string>
+    <string name="sp_title_scorch_desc">Scorch Skill Points Title</string>
+    <string name="sp_title_fracture_hills_desc">Fracture Hills Skill Points Title</string>
+    <string name="sp_title_icy_speedway_desc">Icy Speedway Skill Points Title</string>
+    <string name="sp_title_metro_speedway_desc">Metro Speedway Skill Points Title</string>
+    <string name="sp_title_gulp1_desc">Gulps Overlook1 Skill Points Title</string>
+    <string name="sp_title_gulp2_desc">Gulps Overlook2 Skill Points Title</string>
+    <string name="sp_title_canyon_speedway_desc">Canyon Speedway Skill Points Title</string>
+    <string name="sp_title_ripto_desc">Riptos Arena Skill Points Title</string>
+
+    <string name="sp_desc_idol_springs_desc">Idol Springs Skill Points Description</string>
+    <string name="sp_desc_colossus_desc">Colossus Skill Points Description</string>
+    <string name="sp_desc_hurricos_desc">Hurricos Skill Points Description</string>
+    <string name="sp_desc_aquaria_towers_desc">Aquaria Towers Skill Points Description</string>
+    <string name="sp_desc_ocean_speedway_desc">Ocean Speedway Skill Points Description</string>
+    <string name="sp_desc_crushs_dungeon_desc">Crushs Dungeon Skill Points Description</string>
+    <string name="sp_desc_skelos1_desc">Skelos Badlands1 Skill Points Description</string>
+    <string name="sp_desc_skelos2_desc">Skelos Badlands2 Skill Points Description</string>
+    <string name="sp_desc_scorch_desc">Scorch Skill Points Description</string>
+    <string name="sp_desc_fracture_hills_desc">Fracture Hills Skill Points Description</string>
+    <string name="sp_desc_icy_speedway_desc">Icy Speedway Skill Points Description</string>
+    <string name="sp_desc_metro_speedway_desc">Metro Speedway Skill Points Description</string>
+    <string name="sp_desc_gulp1_desc">Gulps Overlook1 Skill Points Description</string>
+    <string name="sp_desc_gulp2_desc">Gulps Overlook2 Skill Points Description</string>
+    <string name="sp_desc_canyon_speedway_desc">Canyon Speedway Skill Points Description</string>
+    <string name="sp_desc_ripto_desc">Riptos Arena Skill Points Description</string>
+
+    <!--Cheat Code Title Description-->
+    <string name="secrets_cheat_code_title_desc">Cheat Codes Title</string>
+    <string name="secrets_cheat_code_99lives_content_desc">99 Lives Title</string>
+    <string name="secrets_cheat_code_superflame_content_desc">Permenant Superflame Title</string>
+    <string name="secrets_cheat_code_big_head_content_desc">Big Head Mode Title</string>
+    <string name="secrets_cheat_code_small_head_content_desc">Small Head Mode Title</string>
+    <string name="secrets_cheat_code_tiny_wings_content_desc">Tiny Wings Title</string>
+    <string name="secrets_cheat_code_sunglasses_content_desc">Black Sunglasses Spyro Title</string>
+    <string name="secrets_cheat_code_pride_sunglasses_content_desc">Pride Sunglasses Spyro Title</string>
+    <string name="secrets_cheat_code_flat_content_desc">Flat Spyro Title</string>
+    <string name="secrets_cheat_code_retro_content_desc">Retro Spyro Title</string>
+    <string name="secrets_cheat_code_colour_content_desc">Colour Change Title</string>
+
+    <!--Cheat Code Decriptions-->
+    <string name="secrets_cheat_code_intro_content_desc">Cheat Codes Description</string>
+    <string name="secrets_cheat_code_99lives_desc_content_desc">99 Lives Description</string>
+    <string name="secrets_cheat_code_superflame_desc_content_desc">Permenant Superflame Description</string>
+    <string name="secrets_cheat_code_big_head_desc_content_desc">Big Head Mode Description</string>
+    <string name="secrets_cheat_code_small_head_desc_content_desc">Small Head Mode Description</string>
+    <string name="secrets_cheat_code_tiny_wings_desc_content_desc">Tiny Wings Description</string>
+    <string name="secrets_cheat_code_sunglasses_desc_content_desc">Black Sunglasses Spyro Description</string>
+    <string name="secrets_cheat_code_pride_sunglasses_desc_content_desc">Pride Sunglasses Spyro Description</string>
+    <string name="secrets_cheat_code_flat_desc_content_desc">Flat Spyro Description</string>
+    <string name="secrets_cheat_code_retro_desc_content_desc">Retro Spyro Description</string>
+    <string name="secrets_cheat_code_colour_desc_content_desc">Colour Change Description</string>
+
+    <!--Cheat Code Image Decriptions-->
+    <string name="secrets_cheat_code_99lives_image_desc">99 Lives Code Image</string>
+    <string name="secrets_cheat_code_superflame_image_desc">Permenant Superflame Code Image</string>
+    <string name="secrets_cheat_code_big_head_image_desc">Big Head Mode Code Image</string>
+    <string name="secrets_cheat_code_small_head_image_desc">Small Head Mode Code Image</string>
+    <string name="secrets_cheat_code_tiny_wings_image_desc">Tiny Wings Code Image</string>
+    <string name="secrets_cheat_code_sunglasses_image_desc">Black Sunglasses Spyro Code Image</string>
+    <string name="secrets_cheat_code_pride_sunglasses_image_desc">Pride Sunglasses Spyro Code Image</string>
+    <string name="secrets_cheat_code_flat_image_desc">Flat Spyro Code Image</string>
+    <string name="secrets_cheat_code_retro_image_desc">Retro Spyro Code Image</string>
+    <string name="secrets_cheat_code_colour_image_desc">Colour Change Code Image</string>
+
+
 
 </resources>

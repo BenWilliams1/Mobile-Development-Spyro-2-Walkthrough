@@ -16,55 +16,722 @@
             android:id="@+id/text_walkthrough"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
             android:fontFamily="@font/lithospro_black"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="36sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="34dp" />
+            app:layout_constraintBottom_toTopOf="@+id/Summer_Forest"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/Summer_Forest"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
             android:layout_marginStart="76dp"
             android:layout_marginLeft="76dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="113dp"
+            android:layout_marginEnd="76dp"
+            android:layout_marginRight="76dp"
+            android:layout_marginBottom="30dp"
             android:fontFamily="@font/lithospro_black"
+            android:gravity="center"
             android:text="@string/summer_forest_title"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/gridLayout"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_walkthrough"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/text_walkthrough" />
 
         <androidx.gridlayout.widget.GridLayout
             android:id="@+id/gridLayout"
-            android:layout_width="406dp"
-            android:layout_height="360dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="113dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_width="407dp"
+            android:layout_height="1519dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.705"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Summer_Forest">
 
+            <ImageView
+                android:id="@+id/glimmer_image"
+                android:layout_width="122dp"
+                android:layout_height="63dp"
+                android:contentDescription="@string/level_glimmer_image_description"
+                android:src="@drawable/glimmer"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
+            <ImageView
+                android:id="@+id/idol_springs_image"
+                android:layout_width="113dp"
+                android:layout_height="64dp"
+                android:contentDescription="@string/level_idol_springs_image_description"
+                android:src="@drawable/idol_springs"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
+            <ImageView
+                android:id="@+id/colossus_image"
+                android:layout_width="104dp"
+                android:layout_height="63dp"
+                android:contentDescription="@string/level_colossus_image_description"
+                android:src="@drawable/colossus"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="0" />
+
             <Button
-                android:id="@+id/button"
+                android:id="@+id/glimmer_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:contentDescription="@string/level_glimmer_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_glimmer"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="1" />
+
+            <Button
+                android:id="@+id/hurricos_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_hurricos_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_hurricos"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="3" />
+
+            <Button
+                android:id="@+id/summer_forest_button"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/summer_forest_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/summer_forest_title"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="5" />
+
+            <Button
+                android:id="@+id/skelos_badlands_button"
+                android:layout_width="131dp"
+                android:layout_height="59dp"
+                android:contentDescription="@string/level_skelos_badlands_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_skelos_badlands"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="8" />
+
+            <Button
+                android:id="@+id/zephyr_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_zephyr_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_zephyr"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="10" />
+
+            <Button
+                android:id="@+id/magma_cone_button"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_magma_cone_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_magma_cone"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="12" />
+
+            <Button
+                android:id="@+id/icy_speedway_button"
+                android:layout_width="117dp"
+                android:layout_height="60dp"
+                android:contentDescription="@string/level_icy_speedway_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_icy_speedway"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="14" />
+
+            <Button
+                android:id="@+id/mystic_marsh_button"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_mystic_marsh_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_mystic_marsh"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="17" />
+
+            <Button
+                android:id="@+id/canyon_speedway_button"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_canyon_speedway_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_canyon_speedway"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="19" />
+
+            <Button
+                android:id="@+id/winter_tundra_button"
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/winter_tundra_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/winter_tundra_title"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="19" />
+
+            <Button
+                android:id="@+id/dragon_shores_button"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/dragon_shores_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_dragon_shores"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="21" />
+
+            <Button
+                android:id="@+id/riptos_arena_button"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_riptos_arena_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_riptos_arena"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="19" />
+
+            <Button
+                android:id="@+id/cloud_temples_button"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_cloud_temples_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_cloud_temples"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="17" />
+
+            <Button
+                android:id="@+id/robotica_farms_button"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_robotica_farms_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_robotica_farms"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="17" />
+
+            <Button
+                android:id="@+id/autumn_plains_button"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/autumn_plains_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/autumn_plains_title"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="14" />
+
+            <Button
+                android:id="@+id/gulps_overlook_button"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_gulps_overlook_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_gulps_overlook"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="14" />
+
+            <Button
+                android:id="@+id/shady_oasis_button"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_shady_oasis_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_shady_oasis"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="12" />
+
+            <Button
+                android:id="@+id/metro_speedway_button"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_metro_speedway_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_metro_speedway"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="12" />
+
+            <Button
+                android:id="@+id/scorch_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_scorch_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_scorch"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="10" />
+
+            <Button
+                android:id="@+id/fracture_hills_button"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_fracture_hills_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_fracture_hills"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="10" />
+
+            <Button
+                android:id="@+id/crystal_glacier_button"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_crystal_glacier_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_crystal_glacier"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="8" />
+
+            <Button
+                android:id="@+id/breeze_harbour_button"
+                android:layout_width="113dp"
+                android:layout_height="62dp"
+                android:contentDescription="@string/level_breeze_harbor_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_breeze_harbor"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="8" />
+
+            <Button
+                android:id="@+id/crushs_dungeon_button"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_crushs_dungeon_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_crushs_dungeon"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="5" />
+
+            <Button
+                android:id="@+id/sunny_beach_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_sunny_beach_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_sunny_beach"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="3" />
+
+            <Button
+                android:id="@+id/ocean_speedway_button"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_ocean_speedway_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_ocean_speedway"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="3" />
+
+            <Button
+                android:id="@+id/idol_springs_button"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_idol_springs_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_idol_springs"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="1" />
+
+            <Button
+                android:id="@+id/colossus_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_colossus_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_colossus"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="1" />
+
+            <ImageView
+                android:id="@+id/huriccos_image"
+                android:layout_width="118dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/level_hurricos_image_description"
+                android:src="@drawable/hurricos"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="2" />
+
+            <ImageView
+                android:id="@+id/sunny_beach_image"
+                android:layout_width="112dp"
+                android:layout_height="69dp"
+                android:contentDescription="@string/level_sunny_beach_image_description"
+                android:src="@drawable/sunny_beach"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="2" />
+
+            <ImageView
+                android:id="@+id/ocean_speedway_image"
+                android:layout_width="98dp"
+                android:layout_height="71dp"
+                android:contentDescription="@string/level_ocean_speedway_image_description"
+                android:src="@drawable/ocean_speedway"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="2" />
+
+            <ImageView
+                android:id="@+id/summer_forest_image"
+                android:layout_width="121dp"
+                android:layout_height="71dp"
+                android:contentDescription="@string/summer_forest_image_description"
+                android:src="@drawable/summer_forest"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="4" />
+
+            <ImageView
+                android:id="@+id/crushs_dungeon_image"
+                android:layout_width="123dp"
+                android:layout_height="77dp"
+                android:contentDescription="@string/level_crushs_dungeon_image_description"
+                android:src="@drawable/crushs_dungeon"
+                app:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/Autumn_Plains_Title"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/autumn_plains_title_description"
+                android:fontFamily="@font/lithospro_black"
+                android:gravity="center"
+                android:text="@string/autumn_plains_title"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="6" />
+
+            <TextView
+                android:id="@+id/winter_tundra_title"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/winter_tundra_title_description"
+                android:fontFamily="@font/lithospro_black"
+                android:gravity="center"
+                android:text="@string/winter_tundra_title"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="15" />
+
+            <ImageView
+                android:id="@+id/skelos_badlands_image"
+                android:layout_width="130dp"
+                android:layout_height="64dp"
+                android:contentDescription="@string/level_skelos_badlands_image_description"
+                android:src="@drawable/skelos_badlands"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+
+            <ImageView
+                android:id="@+id/crystal_glacier_image"
+                android:layout_width="115dp"
+                android:layout_height="64dp"
+                android:contentDescription="@string/level_crystal_glacier_image_description"
+                android:src="@drawable/crystal_glacier"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+
+            <ImageView
+                android:id="@+id/breeze_harbour_image"
+                android:layout_width="97dp"
+                android:layout_height="67dp"
+                android:contentDescription="@string/level_breeze_harbor_image_description"
+                android:src="@drawable/breeze_harbor"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="7" />
+
+            <ImageView
+                android:id="@+id/zerphyr_image"
+                android:layout_width="121dp"
+                android:layout_height="75dp"
+                android:contentDescription="@string/level_zephyr_image_description"
+                android:src="@drawable/zephyr"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="9" />
+
+            <ImageView
+                android:id="@+id/scorch_image"
+                android:layout_width="122dp"
+                android:layout_height="73dp"
+                android:contentDescription="@string/level_scorch_image_description"
+                android:src="@drawable/scorch"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="9" />
+
+            <ImageView
+                android:id="@+id/fracture_hills_image"
+                android:layout_width="116dp"
+                android:layout_height="75dp"
+                android:contentDescription="@string/level_fracture_hills_image_description"
+                android:src="@drawable/fracture_hills"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="9" />
+
+            <ImageView
+                android:id="@+id/magma_cone_image"
+                android:layout_width="120dp"
+                android:layout_height="69dp"
+                android:contentDescription="@string/level_magma_cone_image_description"
+                android:src="@drawable/magma_cone"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="11" />
+
+            <ImageView
+                android:id="@+id/shady_oasis_image"
+                android:layout_width="128dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/level_shady_oasis_image_description"
+                android:src="@drawable/shady_oasis"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="11" />
+
+            <ImageView
+                android:id="@+id/metro_speedway_image"
+                android:layout_width="113dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/level_metro_speedway_image_description"
+                android:src="@drawable/metro_speedway"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="11" />
+
+            <ImageView
+                android:id="@+id/icy_speedway_image"
+                android:layout_width="129dp"
+                android:layout_height="73dp"
+                android:contentDescription="@string/level_icy_speedway_image_description"
+                android:src="@drawable/icy_speedway"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="13" />
+
+            <ImageView
+                android:id="@+id/autumn_plains_image"
+                android:layout_width="142dp"
+                android:layout_height="83dp"
+                android:contentDescription="@string/autumn_plains_image_description"
+                android:src="@drawable/autumn_plains"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="13" />
+
+            <ImageView
+                android:id="@+id/gulps_overlook_image"
+                android:layout_width="109dp"
+                android:layout_height="77dp"
+                android:contentDescription="@string/level_gulps_overlook_image_description"
+                android:src="@drawable/gulps_overlook"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="13" />
+
+            <ImageView
+                android:id="@+id/mystic_marsh_image"
+                android:layout_width="131dp"
+                android:layout_height="87dp"
+                android:contentDescription="@string/level_mystic_marsh_image_description"
+                android:src="@drawable/mystic_marsh"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="16" />
+
+            <ImageView
+                android:id="@+id/cloud_temples_image"
+                android:layout_width="141dp"
+                android:layout_height="86dp"
+                android:contentDescription="@string/level_cloud_temples_image_description"
+                android:src="@drawable/cloud_temples"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="16" />
+
+            <ImageView
+                android:id="@+id/robotica_farms_image"
+                android:layout_width="110dp"
+                android:layout_height="84dp"
+                android:contentDescription="@string/level_robotica_farms_image_description"
+                android:src="@drawable/robotica_farms"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="16" />
+
+            <ImageView
+                android:id="@+id/canyon_speedway_image"
+                android:layout_width="134dp"
+                android:layout_height="89dp"
+                android:contentDescription="@string/level_canyon_speedway_image_description"
+                android:src="@drawable/canyon_speedway"
+                app:layout_column="0"
+                app:layout_gravity="center"
+                app:layout_row="18" />
+
+            <ImageView
+                android:id="@+id/winter_tundra_image"
+                android:layout_width="138dp"
+                android:layout_height="84dp"
+                android:contentDescription="@string/winter_tundra_image_description"
+                android:src="@drawable/winter_tundra"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="18" />
+
+            <ImageView
+                android:id="@+id/riptos_arena_image"
+                android:layout_width="122dp"
+                android:layout_height="82dp"
+                android:contentDescription="@string/level_riptos_arena_image_description"
+                android:src="@drawable/riptos_arena"
+                app:layout_column="2"
+                app:layout_gravity="center"
+                app:layout_row="18" />
+
+            <ImageView
+                android:id="@+id/dragon_shores_image"
+                android:layout_width="143dp"
+                android:layout_height="64dp"
+                android:contentDescription="@string/dragon_shores_image_description"
+                android:src="@drawable/dragon_shores"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="20" />
 
         </androidx.gridlayout.widget.GridLayout>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
