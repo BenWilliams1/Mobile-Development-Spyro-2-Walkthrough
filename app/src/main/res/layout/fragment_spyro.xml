@@ -5,41 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/purple"
-    tools:context=".ui.gameinfo.Spyro_Info">
+    tools:context=".ui.character_info.SpyroFragment">
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/spyro_image"
         android:layout_width="187dp"
         android:layout_height="199dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="21dp"
+        android:contentDescription="@string/home_spyro_image_description"
         android:src="@drawable/spyro"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/spyro_desc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/spyro_title" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/spyro_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
         android:fontFamily="@font/lithospro_black"
         android:text="@string/spyro_info"
         android:textColor="@color/white"
         android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/spyro_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/spyro_desc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="256dp"
-        android:text="Spyro Description"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="150dp"
+        android:fontFamily="@font/lithospro_regular"
+        android:gravity="center"
+        android:text="@string/spyro_desc"
+        android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spyro_image" />
 </androidx.constraintlayout.widget.ConstraintLayout>

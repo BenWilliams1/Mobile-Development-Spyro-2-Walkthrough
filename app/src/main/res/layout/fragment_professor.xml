@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".ui.character_info.ProfessorFragment">
+
+
+    <TextView
+        android:id="@+id/professor_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="1dp"
+        android:contentDescription="@string/Professor_info"
+        android:fontFamily="@font/lithospro_black"
+        android:text="@string/Professor_info"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/professor_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/professor_image"
+        android:layout_width="190dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="29dp"
+        android:contentDescription="@string/game_info_professor_button_description"
+        android:src="@drawable/professor_reignited"
+        app:layout_constraintBottom_toTopOf="@+id/professor_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/professor_title" />
+
+    <TextView
+        android:id="@+id/professor_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="208dp"
+        android:contentDescription="@string/Professor_info"
+        android:fontFamily="@font/lithospro_regular"
+        android:gravity="center"
+        android:text="@string/Professor_desc"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/professor_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>

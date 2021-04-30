@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".ui.character_info.HunterFragment">
+
+
+    <TextView
+        android:id="@+id/hunter_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginRight="202dp"
+        android:contentDescription="@string/hunter_info"
+        android:fontFamily="@font/lithospro_black"
+        android:text="@string/hunter_info"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/hunter_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.303"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/hunter_image"
+        android:layout_width="220dp"
+        android:layout_height="234dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:contentDescription="@string/game_info_hunter_description"
+        android:src="@drawable/hunter_reignited"
+        app:layout_constraintBottom_toTopOf="@+id/hunter_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hunter_title" />
+
+    <TextView
+        android:id="@+id/hunter_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginLeft="174dp"
+        android:layout_marginEnd="195dp"
+        android:layout_marginRight="195dp"
+        android:layout_marginBottom="100dp"
+        android:contentDescription="@string/hunter_info"
+        android:fontFamily="@font/lithospro_regular"
+        android:gravity="center"
+        android:text="@string/hunter_desc"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hunter_image"
+        app:layout_constraintVertical_bias="0.184" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -25,7 +25,18 @@
     <string name="crush_info">Crush</string>
     <string name="gulp_info">Gulp</string>
     <string name="ripto_info">Ripto</string>
+
     <!--Character Descriptions-->
+    <string name="spyro_desc">Spyro the Dragon is the main protagonist of this game. Spyro is a young purple dragon that comes from the Artisans World. He is known for being courageous, headstrong, eager, and arrogant. He has a strong sense of heroism, friendliness, and has a fiery personality.</string>
+    <string name="sparks_desc">Sparx the Dragonfly is Spyros closest companion. Dragonflies offer protection for young dragons such as Spyro. He too has the same mischievous personality as Spyro, but he is very protective of him. Sparx also acts as Spyros health meter.</string>
+    <string name="hunter_desc">Hunter the Cheetah is a supporting character native to Avalar. Hunter is a tall anthropomorphic cheetah, he has bright orange colour with brown spots all over his coat, as well as a bright yellow underbelly and goatee. Hunter is a laid-back, physically talented, and somewhat gullible character. </string>
+    <string name="Professor_desc">The Professor is very stout with a large head, teal eyes, grey hair, and eyebrows. He wears glasses, a white lab coat, and black shoes. The Professor is an intellectual individual who is always looking for solutions. He is always seen carrying around a pencil and his notepad to write down the coordinates from his studies.</string>
+    <string name="elora_desc">Elora is a faun from Avalar, she initially greets Spyro and also gives him the guidebook for his journey. Elora has blue eyes and purple eyeshadow, her top torso has skin with a small green corset, and she has a fox-like tail. Elora is an expert on the people of Avalar, becoming the natural choice when it came to helping Spyro defeat the evil Ripto.</string>
+    <string name="zoe_desc">Zoe is a summer fairy who offers Spyro advice and serving as a checkpoint for him throughout each of the Realms he visits. She is particularly helpful to newer players and is essentially considered a tutorial.</string>
+    <string name="moneybags_desc">Moneybags is a bear from Avalar who acts as a neutral character. Moneybags is an upper-class, money-grubbing, and somewhat deceitful conman who is infamous for charging Spyro exorbitant fees, paid in Gems, in order for Spyro to advance in certain areas.</string>
+    <string name="crush_desc">Crush is the more dim-witted minions of Ripto. Crush is strong yet unintelligent. His stupidity ends up getting him crushed during a fight with Spyro. Crush first fought against Spyro underneath Summer Forest Castle, but eventually the roof fell in on top of him and knocked him out.</string>
+    <string name="gulp_desc">Gulp is the stronger of Riptos two minions. Gulp is a brutish yet fairly intelligent creature. He is extremely loyal to Ripto. Gulp can ingest certain objects and spits out its harmful qualities at his opponents, such as spewing out waves of green energy after devouring a metal barrel.</string>
+    <string name="ripto_desc">Ripto is the main antagonist of this game. Ripto is a riptoc (small dinosaur) and a persistent enemy of Spyro. He also has two minions serving under him. Ripto is a despicable madman who enjoys power simply for the sake of it. He delights in causing all sorts of trouble and havoc with his magic, and is known for his general disgust for Dragons.</string>
 
     <!--Walkthrough Text-->
     <string name="summer_forest_title">Summer Forest</string>
@@ -270,7 +281,7 @@
     <!--Cheat Code Decriptions-->
     <string name="secrets_cheat_code_intro_content_desc">Cheat Codes Description</string>
     <string name="secrets_cheat_code_99lives_desc_content_desc">99 Lives Description</string>
-    <string name="secrets_cheat_code_superflame_desc_content_desc">Permenant Superflame Description</string>
+    <string name="secrets_cheat_code_superflame_desc_content_desc">Permanent Superflame Description</string>
     <string name="secrets_cheat_code_big_head_desc_content_desc">Big Head Mode Description</string>
     <string name="secrets_cheat_code_small_head_desc_content_desc">Small Head Mode Description</string>
     <string name="secrets_cheat_code_tiny_wings_desc_content_desc">Tiny Wings Description</string>
@@ -282,7 +293,7 @@
 
     <!--Cheat Code Image Decriptions-->
     <string name="secrets_cheat_code_99lives_image_desc">99 Lives Code Image</string>
-    <string name="secrets_cheat_code_superflame_image_desc">Permenant Superflame Code Image</string>
+    <string name="secrets_cheat_code_superflame_image_desc">Permanent Superflame Code Image</string>
     <string name="secrets_cheat_code_big_head_image_desc">Big Head Mode Code Image</string>
     <string name="secrets_cheat_code_small_head_image_desc">Small Head Mode Code Image</string>
     <string name="secrets_cheat_code_tiny_wings_image_desc">Tiny Wings Code Image</string>
@@ -291,8 +302,7 @@
     <string name="secrets_cheat_code_flat_image_desc">Flat Spyro Code Image</string>
     <string name="secrets_cheat_code_retro_image_desc">Retro Spyro Code Image</string>
     <string name="secrets_cheat_code_colour_image_desc">Colour Change Code Image</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 
 </resources>

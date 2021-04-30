@@ -19,7 +19,43 @@
         tools:layout="@layout/fragment_gameinfo" >
         <action
             android:id="@+id/spyro_to_info"
-            app:destination="@id/navigation_spyro_info" />
+            app:destination="@id/navigation_spyrofragment" />
+
+        <action
+            android:id="@+id/sparks_to_info"
+            app:destination="@id/navigation_sparksfragment" />
+
+        <action
+            android:id="@+id/hunter_to_info"
+            app:destination="@id/navigation_hunterfragment" />
+
+        <action
+            android:id="@+id/professor_to_info"
+            app:destination="@id/navigation_professorfragment" />
+
+        <action
+            android:id="@+id/elora_to_info"
+            app:destination="@id/navigation_elorafragment" />
+
+        <action
+            android:id="@+id/zoe_to_info"
+            app:destination="@id/navigation_zoefragment" />
+
+        <action
+            android:id="@+id/moneybags_to_info"
+            app:destination="@id/navigation_moneybagsfragment" />
+
+        <action
+            android:id="@+id/crush_to_info"
+            app:destination="@id/navigation_crushfragment" />
+
+        <action
+            android:id="@+id/gulp_to_info"
+            app:destination="@id/navigation_gulpfragment" />
+
+        <action
+            android:id="@+id/ripto_to_info"
+            app:destination="@id/navigation_riptofragment"/>
     </fragment>
 
     <fragment
@@ -35,10 +71,63 @@
         tools:layout="@layout/fragment_secrets" />
 
     <fragment
-        android:id="@+id/navigation_spyro_info"
-        android:name="com.example.spyro2100walkthrough.ui.gameinfo.Spyro_Info"
-        android:label="@string/title_charinfo"
-        tools:layout="@layout/fragment_spyro__info"
-        />
+        android:id="@+id/navigation_spyrofragment"
+        android:name="com.example.spyro2100walkthrough.ui.character_info.SpyroFragment"
+        android:label="@string/spyro_info"
+        tools:layout="@layout/fragment_spyro" />
+
+    <fragment
+        android:id="@+id/navigation_sparksfragment"
+        android:name="com.example.spyro2100walkthrough.ui.character_info.SparksFragment"
+        android:label="@string/sparks_info"
+        tools:layout="@layout/fragment_sparks" />
+
+    <fragment
+        android:id="@+id/navigation_hunterfragment"
+        android:name="com.example.spyro2100walkthrough.ui.character_info.HunterFragment"
+        android:label="@string/hunter_info"
+        tools:layout="@layout/fragment_hunter" />
+
+    <fragment
+        android:id="@+id/navigation_professorfragment"
+        android:name="com.example.spyro2100walkthrough.ui.character_info.ProfessorFragment"
+        android:label="@string/Professor_info"
+        tools:layout="@layout/fragment_professor" />
+
+    <fragment
+        android:id="@+id/navigation_elorafragment"
+        android:name="com.example.spyro2100walkthrough.ui.character_info.EloraFragment"
+        android:label="@string/elora_info"
+        tools:layout="@layout/fragment_elora" />
+
+    <fragment
+        android:id="@+id/navigation_zoefragment"
+        android:name="com.example.spyro2100walkthrough.ui.character_info.ZoeFragment"
+        android:label="@string/zoe_info"
+        tools:layout="@layout/fragment_zoe" />
+
+    <fragment
+        android:id="@+id/navigation_moneybagsfragment"
+        android:name="com.example.spyro2100walkthrough.ui.character_info.MoneyBagsFragment"
+        android:label="@string/moneybags_info"
+        tools:layout="@layout/fragment_money_bags" />
+
+    <fragment
+        android:id="@+id/navigation_crushfragment"
+        android:name="com.example.spyro2100walkthrough.ui.character_info.CrushFragment"
+        android:label="@string/crush_info"
+        tools:layout="@layout/fragment_crush" />
+
+    <fragment
+        android:id="@+id/navigation_gulpfragment"
+        android:name="com.example.spyro2100walkthrough.ui.character_info.GulpFragment"
+        android:label="@string/gulp_info"
+        tools:layout="@layout/fragment_gulp" />
+
+    <fragment
+        android:id="@+id/navigation_riptofragment"
+        android:name="com.example.spyro2100walkthrough.ui.character_info.RiptoFragment"
+        android:label="@string/ripto_info"
+        tools:layout="@layout/fragment_ripto" />
 
 </navigation>

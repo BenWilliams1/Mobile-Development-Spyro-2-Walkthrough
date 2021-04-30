@@ -35,18 +35,59 @@ class GameInfoFragment : Fragment(), View.OnClickListener {
 
         navController = Navigation.findNavController(view)
         view.findViewById<Button>(R.id.spyro_button)?.setOnClickListener(this)
+        view.findViewById<Button>(R.id.spark_button)?.setOnClickListener(this)
+        view.findViewById<Button>(R.id.hunter_button)?.setOnClickListener(this)
+        view.findViewById<Button>(R.id.professor_button)?.setOnClickListener(this)
+        view.findViewById<Button>(R.id.elora_button)?.setOnClickListener(this)
+        view.findViewById<Button>(R.id.zoe_button)?.setOnClickListener(this)
+        view.findViewById<Button>(R.id.moneybags_button)?.setOnClickListener(this)
+        view.findViewById<Button>(R.id.crush_button)?.setOnClickListener(this)
+        view.findViewById<Button>(R.id.gulp_button)?.setOnClickListener(this)
+        view.findViewById<Button>(R.id.ripto_button)?.setOnClickListener(this)
     }
 
     override fun onClick(v: View?){
         when (v?.id)
         {
-            R.id.testbutton1->{
+            R.id.spyro_button->{
                 navController?.navigate(R.id.spyro_to_info)
             }
 
+            R.id.spark_button->{
+                navController?.navigate(R.id.sparks_to_info)
+            }
+
+            R.id.hunter_button->{
+                navController?.navigate(R.id.hunter_to_info)
+            }
+
+            R.id.professor_button->{
+                navController?.navigate(R.id.professor_to_info)
+            }
+
+            R.id.elora_button->{
+                navController?.navigate(R.id.elora_to_info)
+            }
+
+            R.id.zoe_button->{
+                navController?.navigate(R.id.zoe_to_info)
+            }
+
+            R.id.moneybags_button->{
+                navController?.navigate(R.id.moneybags_to_info)
+            }
+
+            R.id.crush_button->{
+                navController?.navigate(R.id.crush_to_info)
+            }
+
+            R.id.gulp_button->{
+                navController?.navigate(R.id.gulp_to_info)
+            }
+
+            R.id.ripto_button->{
+                navController?.navigate(R.id.ripto_to_info)
+            }
         }
-
     }
-
-
 }

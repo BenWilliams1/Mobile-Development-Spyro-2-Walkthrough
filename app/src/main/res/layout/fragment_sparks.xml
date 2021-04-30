@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".ui.character_info.SparksFragment">
+
+
+    <TextView
+        android:id="@+id/sparks_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/sparks_info"
+        android:fontFamily="@font/lithospro_black"
+        android:text="@string/sparks_info"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/sparks_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <ImageView
+        android:id="@+id/sparks_image"
+        android:layout_width="280dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/game_info_sparks_description"
+        android:src="@drawable/sparx"
+        app:layout_constraintBottom_toTopOf="@+id/sparks_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sparks_title" />
+
+    <TextView
+        android:id="@+id/sparks_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/lithospro_regular"
+        android:gravity="center"
+        android:text="@string/sparks_desc"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sparks_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>
