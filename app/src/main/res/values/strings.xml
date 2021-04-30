@@ -6,6 +6,8 @@
     <string name="title_walkthrough">100% Walkthrough</string>
     <string name="title_secrets">Secrets</string>
     <string name="spyro_2_reignited_trilogy">Spyro 2 Reignited Trilogy</string>
+    <string name="title_charinfo">Character Info</string>
+    <string name="title_glimmer">Glimmer</string>
 
     <!--HomePage Text-->
     <string name="intro_home">This App is a walkthrough/100% guide to fully complete Spyro 2 with all gems, orbs and secrets. This app also has information on the game as well as some hidden secrets and glitches.</string>
@@ -57,7 +59,7 @@
     <string name="level_dragon_shores">Dragon Shores</string>
 
     <!--Secrets Text-->
-    <string name = "skill_points_title">Skill Points</string>
+    <string name="skill_points_title">Skill Points</string>
 
     <!--SKill Points Titles-->
     <string name="sp_title_idol_springs">Idol Springs: Land on Idol</string>
@@ -123,11 +125,11 @@
 
 
     <!--Content Descriptions Home-->
-    <string name ="home_title_description">Home Page Title</string>
-    <string name ="home_spyro_image_description">Image of Spyro</string>
-    <string name ="home_orb_image_description">Image of the collectable orbs in the game</string>
-    <string name ="home_gem_image_description">Image of the collectable gems in the game</string>
-    <string name ="home_talisman_image_description">Image of the collectable talismans in the game</string>
+    <string name="home_title_description">Home Page Title</string>
+    <string name="home_spyro_image_description">Image of Spyro</string>
+    <string name="home_orb_image_description">Image of the collectable orbs in the game</string>
+    <string name="home_gem_image_description">Image of the collectable gems in the game</string>
+    <string name="home_talisman_image_description">Image of the collectable talismans in the game</string>
 
     <!--Content Descriptions Game Info-->
     <string name="game_title_description">Game Info Title</string>
@@ -289,7 +291,8 @@
     <string name="secrets_cheat_code_flat_image_desc">Flat Spyro Code Image</string>
     <string name="secrets_cheat_code_retro_image_desc">Retro Spyro Code Image</string>
     <string name="secrets_cheat_code_colour_image_desc">Colour Change Code Image</string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

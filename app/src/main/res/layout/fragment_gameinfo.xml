@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,8 +10,10 @@
     tools:context=".ui.gameinfo.GameInfoFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/gameInfoConstraint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <TextView
             android:id="@+id/text_gameinfo"
             android:layout_width="match_parent"
@@ -66,6 +67,7 @@
             android:layout_width="399dp"
             android:layout_height="773dp"
             android:layout_marginTop="41dp"
+            android:layout_marginBottom="30dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -292,9 +294,17 @@
                 app:layout_gravity="center"
                 app:layout_row="6" />
 
+            <fragment
+                android:id="@+id/fragment"
+                android:name="com.example.spyro2100walkthrough.CharacterInfoFragment"
+                android:layout_width="150dp"
+                android:layout_height="79dp"
+                app:layout_column="1"
+                app:layout_row="8" />
+
         </androidx.gridlayout.widget.GridLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

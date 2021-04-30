@@ -10,7 +10,14 @@
         android:id="@+id/navigation_home"
         android:name="com.example.spyro2100walkthrough.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/test_to_charinfo"
+            app:destination="@id/navigation_charinfo" />
+        <action
+            android:id="@+id/home_to_glimmer"
+            app:destination="@id/navigation_glimmer" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_gameinfo"
@@ -29,4 +36,18 @@
         android:name="com.example.spyro2100walkthrough.ui.secrets.SecretsFragment"
         android:label="@string/title_secrets"
         tools:layout="@layout/fragment_secrets" />
+
+    <fragment
+        android:id="@+id/navigation_charinfo"
+        android:name="com.example.spyro2100walkthrough.CharacterInfoFragment"
+        android:label="@string/title_charinfo"
+        tools:layout="@layout/fragment_character_info"
+        />
+
+    <fragment
+        android:id="@+id/navigation_glimmer"
+        android:name="com.example.spyro2100walkthrough.GlimmerWalkthrough"
+        android:label="@string/title_glimmer"
+        tools:layout="@layout/fragment_glimmer_walkthrough"
+        />
 </navigation>
