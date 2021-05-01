@@ -19,7 +19,10 @@
         tools:layout="@layout/fragment_gameinfo" >
         <action
             android:id="@+id/spyro_to_info"
-            app:destination="@id/navigation_spyrofragment" />
+            app:destination="@id/navigation_spyrofragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/mobile_navigation"
+            app:popUpToInclusive="true" />
 
         <action
             android:id="@+id/sparks_to_info"
