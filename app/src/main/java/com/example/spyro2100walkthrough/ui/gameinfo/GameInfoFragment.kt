@@ -30,10 +30,8 @@ class GameInfoFragment : Fragment(), View.OnClickListener {
         return root
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
-        navController = Navigation.findNavController(view)
+    fun characterButtons(view: View)
+    {
         view.findViewById<Button>(R.id.spyro_button)?.setOnClickListener(this)
         view.findViewById<Button>(R.id.spark_button)?.setOnClickListener(this)
         view.findViewById<Button>(R.id.hunter_button)?.setOnClickListener(this)
@@ -44,6 +42,13 @@ class GameInfoFragment : Fragment(), View.OnClickListener {
         view.findViewById<Button>(R.id.crush_button)?.setOnClickListener(this)
         view.findViewById<Button>(R.id.gulp_button)?.setOnClickListener(this)
         view.findViewById<Button>(R.id.ripto_button)?.setOnClickListener(this)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        navController = Navigation.findNavController(view)
+        characterButtons(view)
     }
 
     override fun onClick(v: View?){

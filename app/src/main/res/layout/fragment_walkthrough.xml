@@ -209,6 +209,20 @@
                 android:textColor="@color/black"
                 android:textSize="12sp"
                 app:backgroundTint="@color/orange"
+                app:layout_column="1"
+                app:layout_gravity="center"
+                app:layout_row="19" />
+
+            <Button
+                android:id="@+id/metropolis_button"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/level_metropolis_button_description"
+                android:fontFamily="@font/lithospro_regular"
+                android:text="@string/level_metropolis"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:backgroundTint="@color/orange"
                 app:layout_column="0"
                 app:layout_gravity="center"
                 app:layout_row="19" />
@@ -223,7 +237,7 @@
                 android:textColor="@color/black"
                 android:textSize="12sp"
                 app:backgroundTint="@color/orange"
-                app:layout_column="1"
+                app:layout_column="2"
                 app:layout_gravity="center"
                 app:layout_row="19" />
 
@@ -251,9 +265,9 @@
                 android:textColor="@color/black"
                 android:textSize="12sp"
                 app:backgroundTint="@color/orange"
-                app:layout_column="2"
+                app:layout_column="0"
                 app:layout_gravity="center"
-                app:layout_row="19" />
+                app:layout_row="21" />
 
             <Button
                 android:id="@+id/cloud_temples_button"
@@ -697,7 +711,7 @@
                 android:layout_height="89dp"
                 android:contentDescription="@string/level_canyon_speedway_image_description"
                 android:src="@drawable/canyon_speedway"
-                app:layout_column="0"
+                app:layout_column="1"
                 app:layout_gravity="center"
                 app:layout_row="18" />
 
@@ -707,7 +721,7 @@
                 android:layout_height="84dp"
                 android:contentDescription="@string/winter_tundra_image_description"
                 android:src="@drawable/winter_tundra"
-                app:layout_column="1"
+                app:layout_column="2"
                 app:layout_gravity="center"
                 app:layout_row="18" />
 
@@ -717,9 +731,9 @@
                 android:layout_height="82dp"
                 android:contentDescription="@string/level_riptos_arena_image_description"
                 android:src="@drawable/riptos_arena"
-                app:layout_column="2"
+                app:layout_column="0"
                 app:layout_gravity="center"
-                app:layout_row="18" />
+                app:layout_row="20" />
 
             <ImageView
                 android:id="@+id/dragon_shores_image"
@@ -730,6 +744,14 @@
                 app:layout_column="1"
                 app:layout_gravity="center"
                 app:layout_row="20" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="121dp"
+                android:layout_height="84dp"
+                android:src="@drawable/metropolis"
+                app:layout_column="0"
+                app:layout_row="18" />
 
         </androidx.gridlayout.widget.GridLayout>
 

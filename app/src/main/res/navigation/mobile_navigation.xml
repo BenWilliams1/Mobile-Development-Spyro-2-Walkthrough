@@ -62,7 +62,94 @@
         android:id="@+id/navigation_walkthrough"
         android:name="com.example.spyro2100walkthrough.ui.walkthrough.WalkthroughFragment"
         android:label="@string/title_walkthrough"
-        tools:layout="@layout/fragment_walkthrough" />
+        tools:layout="@layout/fragment_walkthrough" >
+        <action
+            android:id="@+id/walkthrough_to_glimmer"
+            app:destination="@id/navigation_glimmerfragment" />
+        <action
+            android:id="@+id/walkthrough_to_idol_springs"
+            app:destination="@id/navigation_idolspringsfragment" />
+        <action
+            android:id="@+id/walkthrough_to_colossus"
+            app:destination="@id/navigation_colossusfragment" />
+        <action
+            android:id="@+id/walkthrough_to_hurricos"
+            app:destination="@id/navigation_hurricosfragment" />
+        <action
+            android:id="@+id/walkthrough_to_sunnybeach"
+            app:destination="@id/navigation_sunnybeachfragment" />
+        <action
+            android:id="@+id/walkthrough_to_oceanspeedway"
+            app:destination="@id/navigation_oceanspeedwayfragment" />
+        <action
+            android:id="@+id/walkthrough_to_summerforest"
+            app:destination="@id/navigation_summerforestfragment" />
+        <action
+            android:id="@+id/walkthrough_to_crush"
+            app:destination="@id/navigation_crushsdungeonfragment" />
+
+        <action
+            android:id="@+id/walkthrough_to_skelosbadlands"
+            app:destination="@id/navigation_skelosbadlandsfragment" />
+        <action
+            android:id="@+id/walkthrough_to_crystalglacier"
+            app:destination="@id/navigation_crystalglacierfragment" />
+        <action
+            android:id="@+id/walkthrough_to_breezeharbour"
+            app:destination="@id/navigation_breezeharbourfragment" />
+        <action
+            android:id="@+id/walkthrough_to_zephyr"
+            app:destination="@id/navigation_zephyrfragment" />
+        <action
+            android:id="@+id/walkthrough_to_scorch"
+            app:destination="@id/navigation_scorchfragment" />
+        <action
+            android:id="@+id/walkthrough_to_fracturehills"
+            app:destination="@id/navigation_fracturehillsfragment" />
+        <action
+            android:id="@+id/walkthrough_to_magmacone"
+            app:destination="@id/navigation_magmaconefragment" />
+        <action
+            android:id="@+id/walkthrough_to_shadyoasis"
+            app:destination="@id/navigation_shadyoasisfragment" />
+        <action
+            android:id="@+id/walkthrough_to_metrospeedway"
+            app:destination="@id/navigation_metrospeedwayfragment" />
+        <action
+            android:id="@+id/walkthrough_to_icyspeedway"
+            app:destination="@id/navigation_icyspeedwayfragment" />
+        <action
+            android:id="@+id/walkthrough_to_autumnplains"
+            app:destination="@id/navigation_autumnplainsfragment" />
+        <action
+            android:id="@+id/walkthrough_to_gulpsoverlook"
+            app:destination="@id/navigation_gulpsoverlookfragment" />
+
+        <action
+            android:id="@+id/walkthrough_to_mysticmarsh"
+            app:destination="@id/navigation_mysticmarshfragment" />
+        <action
+            android:id="@+id/walkthrough_to_cloudtemples"
+            app:destination="@id/navigation_cloudtemplesfragment" />
+        <action
+            android:id="@+id/walkthrough_to_roboticafarms"
+            app:destination="@id/navigation_roboticafarmsfragment" />
+        <action
+            android:id="@+id/walkthrough_to_metropolis"
+            app:destination="@id/navigation_metropolisfragment" />
+        <action
+            android:id="@+id/walkthrough_to_canyonspeedway"
+            app:destination="@id/navigation_canyonspeedwayfragment" />
+        <action
+            android:id="@+id/walkthrough_to_wintertundra"
+            app:destination="@id/navigation_wintertundrafragment" />
+        <action
+            android:id="@+id/walkthrough_to_riptosarena"
+            app:destination="@id/navigation_riptosarenafragment" />
+        <action
+            android:id="@+id/walkthrough_to_dragonshores"
+            app:destination="@id/navigation_dragonshoresfragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_secrets"
@@ -70,6 +157,7 @@
         android:label="@string/title_secrets"
         tools:layout="@layout/fragment_secrets" />
 
+    <!--Character Info-->
     <fragment
         android:id="@+id/navigation_spyrofragment"
         android:name="com.example.spyro2100walkthrough.ui.character_info.SpyroFragment"
@@ -129,5 +217,180 @@
         android:name="com.example.spyro2100walkthrough.ui.character_info.RiptoFragment"
         android:label="@string/ripto_info"
         tools:layout="@layout/fragment_ripto" />
+
+    <!--Walkthrough Levels-->
+    <!--Summer Forest-->
+
+    <fragment
+        android:id="@+id/navigation_glimmerfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.summer_forest.GlimmerFragment"
+        android:label="@string/level_glimmer"
+        tools:layout="@layout/fragment_glimmer" />
+
+    <fragment
+        android:id="@+id/navigation_idolspringsfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.summer_forest.IdolSpringsFragment"
+        android:label="@string/level_idol_springs"
+        tools:layout="@layout/fragment_idol_springs" />
+
+    <fragment
+        android:id="@+id/navigation_colossusfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.summer_forest.ColossusFragment"
+        android:label="@string/level_colossus"
+        tools:layout="@layout/fragment_colossus" />
+
+    <fragment
+        android:id="@+id/navigation_hurricosfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.summer_forest.HurricosFragment"
+        android:label="@string/level_hurricos"
+        tools:layout="@layout/fragment_hurricos" />
+
+    <fragment
+        android:id="@+id/navigation_sunnybeachfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.summer_forest.SunnyBeachFragment"
+        android:label="@string/level_sunny_beach"
+        tools:layout="@layout/fragment_sunny_beach" />
+
+    <fragment
+        android:id="@+id/navigation_oceanspeedwayfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.summer_forest.OceanSpeedwayFragment"
+        android:label="@string/level_ocean_speedway"
+        tools:layout="@layout/fragment_ocean_speedway" />
+
+    <fragment
+        android:id="@+id/navigation_summerforestfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.summer_forest.SummerForestFragment"
+        android:label="@string/summer_forest_title"
+        tools:layout="@layout/fragment_summer_forest" />
+
+    <fragment
+        android:id="@+id/navigation_crushsdungeonfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.summer_forest.CrushsDungeonFragment"
+        android:label="@string/level_crushs_dungeon"
+        tools:layout="@layout/fragment_crushs_dungeon" />
+
+    <!--Autumn Plains-->
+
+    <fragment
+        android:id="@+id/navigation_skelosbadlandsfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.autumn_plains.SkelosBadlandsFragment"
+        android:label="@string/level_skelos_badlands"
+        tools:layout="@layout/fragment_skelos_badlands" />
+
+    <fragment
+        android:id="@+id/navigation_crystalglacierfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.autumn_plains.CrystalGlacierFragment"
+        android:label="@string/level_crystal_glacier"
+        tools:layout="@layout/fragment_crystal_glacier" />
+
+    <fragment
+        android:id="@+id/navigation_breezeharbourfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.autumn_plains.BreezeHarbourFragment"
+        android:label="@string/level_breeze_harbor"
+        tools:layout="@layout/fragment_breeze_harbour" />
+
+    <fragment
+        android:id="@+id/navigation_zephyrfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.autumn_plains.ZephyrFragment"
+        android:label="@string/level_zephyr"
+        tools:layout="@layout/fragment_zephyr" />
+
+    <fragment
+        android:id="@+id/navigation_scorchfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.autumn_plains.ScorchFragment"
+        android:label="@string/level_scorch"
+        tools:layout="@layout/fragment_scorch" />
+
+    <fragment
+        android:id="@+id/navigation_fracturehillsfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.autumn_plains.FractureHillsFragment"
+        android:label="@string/level_fracture_hills"
+        tools:layout="@layout/fragment_fracture_hills" />
+
+    <fragment
+        android:id="@+id/navigation_magmaconefragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.autumn_plains.MagmaConeFragment"
+        android:label="@string/level_magma_cone"
+        tools:layout="@layout/fragment_magma_cone" />
+
+    <fragment
+        android:id="@+id/navigation_shadyoasisfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.autumn_plains.ShadyOasisFragment"
+        android:label="@string/level_shady_oasis"
+        tools:layout="@layout/fragment_shady_oasis" />
+
+    <fragment
+        android:id="@+id/navigation_metrospeedwayfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.autumn_plains.MetroSpeedwayFragment"
+        android:label="@string/level_metro_speedway"
+        tools:layout="@layout/fragment_metro_speedway" />
+
+    <fragment
+        android:id="@+id/navigation_icyspeedwayfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.autumn_plains.IcySpeedwayFragment"
+        android:label="@string/level_icy_speedway"
+        tools:layout="@layout/fragment_icy_speedway" />
+
+    <fragment
+        android:id="@+id/navigation_autumnplainsfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.autumn_plains.AutumnPlainsFragment"
+        android:label="@string/autumn_plains_title"
+        tools:layout="@layout/fragment_autumn_plains" />
+
+    <fragment
+        android:id="@+id/navigation_gulpsoverlookfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.autumn_plains.GulpsOverlookFragment"
+        android:label="@string/level_gulps_overlook"
+        tools:layout="@layout/fragment_gulps_overlook" />
+
+    <!--Winter Tundra-->
+
+    <fragment
+        android:id="@+id/navigation_mysticmarshfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.winter_tundra.MysticMarshFragment"
+        android:label="@string/level_mystic_marsh"
+        tools:layout="@layout/fragment_mystic_marsh" />
+
+    <fragment
+        android:id="@+id/navigation_cloudtemplesfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.winter_tundra.CloudTemplesFragment"
+        android:label="@string/level_cloud_temples"
+        tools:layout="@layout/fragment_cloud_temples" />
+
+    <fragment
+        android:id="@+id/navigation_roboticafarmsfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.winter_tundra.RoboticaFarmsFragment"
+        android:label="@string/level_robotica_farms"
+        tools:layout="@layout/fragment_robotica_farms" />
+
+    <fragment
+        android:id="@+id/navigation_metropolisfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.winter_tundra.MetropolisFragment"
+        android:label="@string/level_metropolis"
+        tools:layout="@layout/fragment_metropolis" />
+
+    <fragment
+        android:id="@+id/navigation_canyonspeedwayfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.winter_tundra.CanyonSpeedwayFragment"
+        android:label="@string/level_canyon_speedway"
+        tools:layout="@layout/fragment_canyon_speedway" />
+    <fragment
+        android:id="@+id/navigation_wintertundrafragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.winter_tundra.WinterTundraFragment"
+        android:label="@string/winter_tundra_title"
+        tools:layout="@layout/fragment_winter_tundra" />
+
+    <fragment
+        android:id="@+id/navigation_riptosarenafragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.winter_tundra.RiptosArenaFragment"
+        android:label="@string/level_riptos_arena"
+        tools:layout="@layout/fragment_riptos_arena" />
+
+    <fragment
+        android:id="@+id/navigation_dragonshoresfragment"
+        android:name="com.example.spyro2100walkthrough.ui.levels.winter_tundra.DragonShoresFragment"
+        android:label="@string/level_dragon_shores"
+        tools:layout="@layout/fragment_dragon_shores" />
+
 
 </navigation>
