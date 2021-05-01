@@ -8,16 +8,35 @@
     tools:context=".ui.levels.autumn_plains.ScorchFragment">
 
 
+    <Button
+        android:id="@+id/scorch_video_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/lithospro_regular"
+        android:text="@string/scorch_video"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scorch_img" />
+
     <TextView
         android:id="@+id/scorch_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
         android:contentDescription="@string/level_scorch"
         android:fontFamily="@font/lithospro_black"
         android:text="@string/level_scorch"
         android:textColor="@color/white"
         android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/scorch_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,9 +45,9 @@
         android:id="@+id/scorch_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
         android:contentDescription="@string/level_scorch_image_description"
         android:src="@drawable/scorch"
+        app:layout_constraintBottom_toTopOf="@+id/scorch_video_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"

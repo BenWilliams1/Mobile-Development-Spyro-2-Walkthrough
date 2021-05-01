@@ -8,17 +8,32 @@
     tools:context=".ui.levels.autumn_plains.ShadyOasisFragment">
 
 
+    <Button
+        android:id="@+id/shady_oasis_video_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lithospro_regular"
+        android:text="@string/shady_oasis_video"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shady_oasis_img" />
+
     <TextView
         android:id="@+id/shady_oasis_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
         android:contentDescription="@string/level_shady_oasis"
         android:fontFamily="@font/lithospro_black"
         android:text="@string/level_shady_oasis"
         android:textColor="@color/white"
         android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/shady_oasis_img"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,9 +41,9 @@
         android:id="@+id/shady_oasis_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:contentDescription="@string/level_shady_oasis_image_description"
         android:src="@drawable/shady_oasis"
+        app:layout_constraintBottom_toTopOf="@+id/shady_oasis_video_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"

@@ -8,16 +8,36 @@
     tools:context=".ui.levels.autumn_plains.BreezeHarbourFragment">
 
 
+    <Button
+        android:id="@+id/breeze_harbor_video_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/lithospro_regular"
+        android:text="@string/breeze_harbor_video"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/breeze_harbour_img" />
+
     <TextView
         android:id="@+id/breeze_harbour_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
         android:contentDescription="@string/level_breeze_harbor"
         android:fontFamily="@font/lithospro_black"
         android:text="@string/level_breeze_harbor"
         android:textColor="@color/white"
         android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/breeze_harbour_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,8 +46,8 @@
         android:id="@+id/breeze_harbour_img"
         android:layout_width="289dp"
         android:layout_height="183dp"
-        android:layout_marginTop="32dp"
         android:src="@drawable/breeze_harbor"
+        app:layout_constraintBottom_toTopOf="@+id/breeze_harbor_video_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/breeze_harbour_title" />

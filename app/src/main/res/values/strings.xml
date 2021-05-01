@@ -69,6 +69,37 @@
     <string name="level_riptos_arena">Riptos Arena</string>
     <string name="level_dragon_shores">Dragon Shores</string>
 
+    <!--Video Buttons-->
+    <string name="summer_forest_video">Summer Forest Video</string>
+    <string name="autumn_plains_video">Autumn Plains Video</string>
+    <string name="winter_tundra_video">Winter Tundra Video</string>
+    <string name="glimmer_video">Glimmer Video</string>
+    <string name="idol_springs_video">Idol Springs Video</string>
+    <string name="colossus_video">Colossus Video</string>
+    <string name="sunny_beach_video">Sunny Beach Video</string>
+    <string name="hurricos_video">Hurricos Video</string>
+    <string name="aquaria_towers_video">Aquaria Towers Video</string>
+    <string name="ocean_speedway_video">Ocean Speedway Video</string>
+    <string name="crushs_dungeon_video">Crushs Dungeon Video</string>
+    <string name="skelos_badlands_video">Skelos Badlands Video</string>
+    <string name="crystal_glacier_video">Crystal Glacier Video</string>
+    <string name="breeze_harbor_video">Breeze Harbor Video</string>
+    <string name="zephyr_video">Zephyr Video</string>
+    <string name="scorch_video">Scorch Video</string>
+    <string name="fracture_hills_video">Fracture Hills Video</string>
+    <string name="magma_cone_video">Magma Cone Video</string>
+    <string name="shady_oasis_video">Shady Oasis Video</string>
+    <string name="metro_speedway_video">Metro Speedway Video</string>
+    <string name="icy_speedway_video">Icy Speedway Video</string>
+    <string name="gulps_overlook_video">Gulps Overlook Video</string>
+    <string name="mystic_marsh_video">Mystic Marsh Video</string>
+    <string name="cloud_temples_video">Cloud Temples Video</string>
+    <string name="robotica_farms_video">Robotica Farms Video</string>
+    <string name="metropolis_video">Metropolis Video</string>
+    <string name="canyon_speedway_video">Canyon Speedway Video</string>
+    <string name="riptos_arena_video">Riptos Arena Video</string>
+    <string name="dragon_shores_video">Dragon Shores Video</string>
+
     <!--Secrets Text-->
     <string name="skill_points_title">Skill Points</string>
 

@@ -8,16 +8,35 @@
     tools:context=".ui.levels.autumn_plains.CrystalGlacierFragment">
 
 
+    <Button
+        android:id="@+id/crystal_glacier_video_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/lithospro_regular"
+        android:text="@string/crystal_glacier_video"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/crystal_glacier_img" />
+
     <TextView
         android:id="@+id/crystal_glacier_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
         android:contentDescription="@string/level_crystal_glacier"
         android:fontFamily="@font/lithospro_black"
         android:text="@string/level_crystal_glacier"
         android:textColor="@color/white"
         android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/crystal_glacier_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,9 +45,9 @@
         android:id="@+id/crystal_glacier_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:contentDescription="@string/level_crystal_glacier_image_description"
         android:src="@drawable/crystal_glacier"
+        app:layout_constraintBottom_toTopOf="@+id/crystal_glacier_video_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"

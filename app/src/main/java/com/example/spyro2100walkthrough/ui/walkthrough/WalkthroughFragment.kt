@@ -106,7 +106,7 @@ class WalkthroughFragment : Fragment(), View.OnClickListener {
             R.id.summer_forest_button->{
                 navController?.navigate(R.id.walkthrough_to_summerforest)
             }
-            R.id.crush_button->{
+            R.id.crushs_dungeon_button->{
                 navController?.navigate(R.id.walkthrough_to_crush)
             }
             R.id.skelos_badlands_button->{
@@ -142,7 +142,7 @@ class WalkthroughFragment : Fragment(), View.OnClickListener {
             R.id.autumn_plains_button->{
                 navController?.navigate(R.id.walkthrough_to_autumnplains)
             }
-            R.id.gulp_button->{
+            R.id.gulps_overlook_button->{
                 navController?.navigate(R.id.walkthrough_to_gulpsoverlook)
             }
             R.id.mystic_marsh_button->{
@@ -163,7 +163,7 @@ class WalkthroughFragment : Fragment(), View.OnClickListener {
             R.id.winter_tundra_button->{
                 navController?.navigate(R.id.walkthrough_to_wintertundra)
             }
-            R.id.ripto_button->{
+            R.id.riptos_arena_button->{
                 navController?.navigate(R.id.walkthrough_to_riptosarena)
             }
             R.id.dragon_shores_button->{

@@ -8,16 +8,35 @@
     tools:context=".ui.levels.winter_tundra.DragonShoresFragment">
 
 
+    <Button
+        android:id="@+id/dragon_shores_video_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/lithospro_regular"
+        android:text="@string/dragon_shores_video"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dragon_shores_img" />
+
     <TextView
         android:id="@+id/dragon_shores_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
         android:contentDescription="@string/level_dragon_shores"
         android:fontFamily="@font/lithospro_black"
         android:text="@string/level_dragon_shores"
         android:textColor="@color/white"
         android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/dragon_shores_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,9 +45,9 @@
         android:id="@+id/dragon_shores_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:contentDescription="@string/dragon_shores_image_description"
         android:src="@drawable/dragon_shores"
+        app:layout_constraintBottom_toTopOf="@+id/dragon_shores_video_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"

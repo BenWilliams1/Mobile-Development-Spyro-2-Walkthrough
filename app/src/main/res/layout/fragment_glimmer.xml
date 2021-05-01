@@ -41,26 +41,17 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="158dp"
         android:layout_marginLeft="158dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="76dp"
         android:layout_marginEnd="165dp"
         android:layout_marginRight="165dp"
-        android:text="Video"
+        android:fontFamily="@font/lithospro_regular"
+        android:text="@string/glimmer_video"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@color/orange"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.453"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-    <!--
-        <fragment
-            android:id="@+id/youtube_fragment"
-            android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2">
-
-            -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

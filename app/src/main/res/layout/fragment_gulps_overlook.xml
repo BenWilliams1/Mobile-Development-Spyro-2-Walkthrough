@@ -8,16 +8,35 @@
     tools:context=".ui.levels.autumn_plains.GulpsOverlookFragment">
 
 
+    <Button
+        android:id="@+id/gulps_overlook_video_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/lithospro_regular"
+        android:text="@string/gulps_overlook_video"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gulps_img" />
+
     <TextView
         android:id="@+id/gulps_overlook_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
         android:contentDescription="@string/level_gulps_overlook"
         android:fontFamily="@font/lithospro_black"
         android:text="@string/level_gulps_overlook"
         android:textColor="@color/white"
         android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/gulps_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,9 +45,9 @@
         android:id="@+id/gulps_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
         android:contentDescription="@string/level_gulps_overlook_image_description"
         android:src="@drawable/gulps_overlook"
+        app:layout_constraintBottom_toTopOf="@+id/gulps_overlook_video_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gulps_overlook_title" />
