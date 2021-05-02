@@ -43,8 +43,8 @@
 
     <ImageView
         android:id="@+id/metro_speedway_img"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="353dp"
+        android:layout_height="201dp"
         android:contentDescription="@string/level_metro_speedway_image_description"
         android:src="@drawable/metro_speedway"
         app:layout_constraintBottom_toTopOf="@+id/metro_speedway_video_button"
